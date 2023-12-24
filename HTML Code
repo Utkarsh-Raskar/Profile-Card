@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="container">
+        <div class="card" data-tilt>
+            <img src="images/20231115_000329.png">
+            <h2>Utkarsh Raskar</h2>
+            <p>I'm student of SITS<br>
+                Computer Engineer<br>
+                Web Developer
+            </p>
+            <div class="link">
+                <a href="https://www.linkedin.com/in/utkarsh-raskar-058438298/"><img src="images/download.png"></a>
+                <a href="https://github.com/Utkarsh-Raskar/"><img src="images/Github.png"></a>
+                <a href="https://www.instagram.com/_utkarsh_raskar_4061/"><img src="images/Instagram.png"></a>
+            </div>
+            <div class="email">
+                <a href="mailto:raskarutkarsh2072@gmail.com" class="btn">Message me</a>
+            </div>
+
+        </div>
+    </div>
+    <script src="vanilla-tilt.babel.js"></script>
+
+</body>
+</html>
